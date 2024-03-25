@@ -23,6 +23,9 @@ int main()
         cout << "Loop: " << loopCount << endl;
         loopCount++;
 
+        // Clear vector to empty it 
+        arr.clear();
+
         // Randomly generate vector of specified size
         for (int i = 0; i < size; i++)
         {
