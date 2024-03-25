@@ -77,3 +77,17 @@ void searchClassType::bubbleSort(vector<int>& arr)
 		}
 	}
 }
+
+int searchClassType::generateRandomNumbers()
+{
+	// Creates a random number generator using the Mersenne Twister engine
+	mt19937 rng(random_device{}());
+
+	// Defines a range for random integers (inclusive)
+	uniform_int_distribution<int> distribution(1, 100);
+
+	// Generate random numbers and populate array
+	int randomNumber = distribution(rng);
+	
+	return randomNumber;
+}

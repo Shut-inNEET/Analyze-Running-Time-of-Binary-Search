@@ -32,4 +32,6 @@ public:
 	// Preconditions: arr is an unsorted vector of ints
 	// Postconditions: Elements of arr are sorted in ascending order
 	void bubbleSort(vector<int>&);
+
+	int generateRandomNumbers();
 };
