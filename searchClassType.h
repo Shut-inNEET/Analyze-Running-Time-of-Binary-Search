@@ -33,5 +33,8 @@ public:
 	// Postconditions: Elements of arr are sorted in ascending order
 	void bubbleSort(vector<int>&);
 
+	// Generates a random int between 0 and 100
+	// Precontions: none
+	// Postconditions: Returns a random int between 0 and 100
 	int generateRandomNumbers();
 };
